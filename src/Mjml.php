@@ -5,8 +5,6 @@ namespace Vineyard\StatamicMjml;
 use Statamic\Tags\Tags;
 use Statamic\Statamic;
 use Statamic\Contracts\View\Antlers\Parser;
-use App\Custom\NewsFeed;
-use App\Custom\NewsStory;
 
 class Mjml extends Tags
 {

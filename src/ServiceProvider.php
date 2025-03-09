@@ -6,7 +6,9 @@ use Statamic\Providers\AddonServiceProvider;
 
 class ServiceProvider extends AddonServiceProvider
 {
-    protected $viewNamespace = 'statamic-mjml';
+    protected $tags = [
+        \Vineyard\StatamicMjml\Mjml::class,
+    ];
 
     public function bootAddon()
     {
