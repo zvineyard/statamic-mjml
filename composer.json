@@ -1,0 +1,16 @@
+{
+    "name": "vineyard/statamic-mjml",
+    "description": "An MJML tag for Statamic.",
+    "autoload": {
+        "psr-4": {
+            "Vineyard\\StatamicMjml\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zac Vineyard",
+            "email": "zacvineyard@gmail.com"
+        }
+    ],
+    "require": {}
+}
