@@ -34,7 +34,7 @@ class Mjml extends Tags
         $ch = curl_init('https://api.mjml.io/v1/render');
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: text/plain'));
         curl_setopt($ch, CURLOPT_HEADER, 0);
-        curl_setopt($ch, CURLOPT_USERPWD, config('mjml_api_key'));
+        curl_setopt($ch, CURLOPT_USERPWD, config('statamic-mjml.mjml_api_key'));
         curl_setopt($ch, CURLOPT_TIMEOUT, 30);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post));
