@@ -1,6 +1,6 @@
 # Statamic MJML Tag
 
-Statamic GA Dashboard is a Statamic addon that adds a Google Analytics widget to your Statamic dashboard, letting site users/owners see how much traffic is coming to their site.
+A MJML tag for Statamic that parses MJML into HTML.
 
 ## How to Install
 
